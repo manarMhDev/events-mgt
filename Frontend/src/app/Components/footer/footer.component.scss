@@ -1,0 +1,23 @@
+#g-footer{
+    border-top: 0px solid rgba(255, 255, 255, 0.73);
+    background-color:#6666CC;
+    height: 75px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.g-container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.f-icon{
+    color: white;
+    margin-left:20px;
+}

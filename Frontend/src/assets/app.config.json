@@ -1,0 +1,19 @@
+{
+  "remoteServiceBaseUrl": "https://localhost:7268",
+  "appBaseUrl": "https://localhost:7268",
+  "logoAssetBaseUrl": "",
+  "localeMappings": [
+    {
+      "from": "pt-BR",
+      "to": "pt"
+    },
+    {
+      "from": "zh-CN",
+      "to": "zh"
+    },
+    {
+      "from": "he-IL",
+      "to": "he"
+    }
+  ]
+}

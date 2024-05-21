@@ -1,0 +1,30 @@
+.g-container{
+    flex: 1;
+}
+.color-sqr{
+    height: 25px;
+    width: 25px;
+}
+.pagination-controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-tbl{
+    height: 50px;
+    width: 50px;
+    border-radius: 8px;
+}
+tr.event-detail-row {
+    height: 0;
+  }
+  th.mat-sort-header {
+    color: black;
+  }
+.event-details{
+    text-align:center;
+    margin:0 auto;
+}
+.title{
+    font-size:large;
+}

@@ -1,0 +1,50 @@
+<div class="g-container">
+  <div class="close-btn">
+    <i class="fa fa-close close-btn" (click)="close()"></i>
+  </div>
+  <div class="header">
+      <h1>{{data.title}}</h1>
+  </div>
+ <hr/>
+  
+  <form [formGroup]="basicForm" (ngSubmit)="submitForm()" novalidate>
+    <div class="row" >
+      
+      <div class="col-md-12">
+        <div class="form-group">
+          <input
+          class="form-control" 
+          formControlName="title"
+          type="text"
+          placeholder="اللقب"
+        />
+        </div>
+      </div>
+      
+    </div>
+    <div
+      *ngIf="this.basicForm.controls?.['title'].touched && this.basicForm.controls?.['title'].invalid"
+    >
+      <div
+        *ngIf="this.basicForm.controls?.['title'].errors?.['required']"
+      >
+        <span class="error" >الاسم مطلوب.</span>
+      </div>
+      <div
+        *ngIf="this.basicForm.controls?.['title'].errors?.['minlength']"
+      >
+        <span class="error" >الحد الادنى للاسم ثلاث أحرف.</span>
+      </div>
+    </div>
+ 
+    <div class="row g-btns" >
+      
+      <div class="col-md-12">
+        <button class="btn btn-submit" >حفظ</button>
+      </div>
+      
+    </div>
+  </form>
+</div>
+
+  

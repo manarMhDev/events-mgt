@@ -1,0 +1,29 @@
+<div class="g-container">
+    <div class="close-btn">
+      <i class="fa fa-close close-btn" (click)="close()"></i>
+    </div>
+    <div class="header">
+        <h1>{{data.title}}</h1>
+    </div>
+   <hr/>
+    
+    <form [formGroup]="basicForm" (ngSubmit)="submitForm()" novalidate>
+        <mat-form-field floatLabel="always" appearance="outline">
+            <mat-label>المقعد</mat-label>
+            <mat-select formControlName="seatId" required>
+              <mat-option>--</mat-option>
+              <mat-option *ngFor="let seat of seats" [value]="seat.id" >
+                {{ seat.code }}</mat-option>
+            </mat-select>
+          </mat-form-field>
+      <div class="row g-btns" >
+        
+        <div class="col-md-12">
+          <button class="btn btn-submit" >حفظ</button>
+        </div>
+        
+      </div>
+    </form>
+  </div>
+  
+    

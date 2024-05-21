@@ -1,0 +1,96 @@
+
+<div class="g-container">
+    <div class="row">
+        <div class="col-md-4">
+            <app-seat-form [id]="currentItem" (updated)="reload()"></app-seat-form>
+        </div>
+        <div class="col-md-8">
+          <mat-form-field floatLabel="always" appearance="outline">
+            <mat-label>المناسبة</mat-label>
+            <mat-select>
+              <mat-option>--</mat-option>
+              <mat-option *ngFor="let event of events" [value]="event.id" (onSelectionChange)="changeEvent($event)" >
+                {{ event.nameArabic }}</mat-option>
+            </mat-select>
+          </mat-form-field>
+                <table
+                class="table table-striped table-bordered table-condensed table-hover"
+                id="list_49_com_fabrik_49"
+              >
+                <thead>
+                  <tr class="fabrik___heading">
+                    <th
+                      class="heading fabrik_ordercell surename___id 941_order fabrik_list_49_group_139"
+                    >
+                      <span>م</span>
+                    </th>
+                    <th
+                      class="heading fabrik_ordercell surename___title3 943_order fabrik_list_49_group_139"
+                    >
+                      <span>رمز الكرسي</span>
+                    </th>
+                    <th
+                    class="heading fabrik_ordercell surename___title3 943_order fabrik_list_49_group_139"
+                  >
+                    <span>نوع الكرسي</span>
+                  </th>
+                    <th
+                    class="heading fabrik_ordercell surename___title3 943_order fabrik_list_49_group_139"
+                  >
+                    <span>مكان المناسبة</span>
+                  </th>
+                 
+                  <th
+                  class="heading fabrik_ordercell surename___title3 943_order fabrik_list_49_group_139"
+                >
+                  <span>محجوز </span>
+                </th>
+                    <th class="heading fabrik_ordercell fabrik_actions">
+                      <span
+                        ><div class="btn-group">
+                          <a
+                            href="#"
+                            class="btn btn-default delete"
+                            data-listref="list_49_com_fabrik_49"
+                            title="حذف"
+                          >
+                          <i class="fa fa-close"></i></a
+                          >
+                        </div></span
+                      >
+                    </th>
+                  </tr>
+                </thead>
+              
+                <tbody class="">
+                  <tr *ngFor="let item of seats ; trackBy: trackByFn ;index as i">
+                      <td> {{item.id}}</td>
+                      <td>{{item.code}}</td>
+                      <td>{{item.seatTypeName}}</td>
+                      <td>{{item.eventPlaceName}}</td>
+                      <td>{{item.isTaken}}</td>
+                      <td>
+                        <!-- <button class="btn" (click)="alertDelete(item.id)"  >  <i class="fa fa-close"></i></button> -->
+                        <button class="btn" (click)="openEditTitleDialog(item.id)">  <i class="fa fa-edit"></i></button>
+                        <button class="btn" (click)="alertDelete(item.id)"  >  <i class="fa fa-close"></i></button>
+                      </td>
+                 </tr>
+                </tbody>
+              </table>
+              <div class="pagination-controls">
+                <app-pagination
+                [currentPage]="current_page"
+                [totalPages]="total_pages"
+                (pageChanged)="onPageChange($event)"
+              ></app-pagination>
+              <div>
+                <select (change)="goToPage($event)" class="form-control">
+                  <option *ngFor="let page of pageNumbers" [value]="page">{{ page }}</option>
+                </select>
+              </div>
+              </div>
+            
+            
+        </div>
+    </div>
+</div>

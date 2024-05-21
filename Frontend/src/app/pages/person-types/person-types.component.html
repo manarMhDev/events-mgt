@@ -1,0 +1,95 @@
+<div class="g-container">
+    <div>
+      <a>
+        <i class="fa fa-plus-circle" (click)="openAddTitleDialog()"></i>
+        إضافة
+      </a>
+    </div>
+      <table
+      class="table table-striped table-bordered table-condensed table-hover"
+      id="list_49_com_fabrik_49"
+    >
+      <thead>
+        <tr class="fabrik___heading">
+          <th
+            class="heading fabrik_ordercell surename___id 941_order fabrik_list_49_group_139"
+          >
+            <span>م</span>
+          </th>
+          <th
+            class="heading fabrik_ordercell surename___title3 943_order fabrik_list_49_group_139"
+          >
+            <span>الفئة</span>
+          </th>
+          <th
+          class="heading fabrik_ordercell surename___lang 944_order fabrik_list_49_group_139"
+        >
+          <span>اللون</span>
+        </th>
+          <th class="heading fabrik_ordercell fabrik_select">
+            <span
+              ><input
+                type="checkbox"
+                name="checkAll"
+                class="list_49_checkAll"
+                id="list_49_checkAll"
+            /></span>
+          </th>
+          <th class="heading fabrik_ordercell fabrik_actions">
+            <span
+              ><div class="btn-group">
+                <a
+                  href="#"
+                  class="btn btn-default delete"
+                  data-listref="list_49_com_fabrik_49"
+                  title="حذف"
+                >
+                <i class="fa fa-close"></i></a
+                >
+              </div></span
+            >
+          </th>
+        </tr>
+      </thead>
+    
+      <tbody class="">
+        <tr *ngFor="let item of personTypes; trackBy: trackByFn ;index as i">
+            <td> {{(i+1)+((current_page-1)*10)}}</td>
+            <td>{{item.name}}</td>
+            <td >
+                <div class="color-sqr" [style.background-color]="item.color"></div>
+            </td>
+           
+            <td><input type="checkbox"></td>
+            <td>
+              <button class="btn" (click)="alertDelete(item.id)"  >  <i class="fa fa-close"></i></button>
+              <button class="btn" (click)="openAddTitleDialog(item.id)">  <i class="fa fa-edit"></i></button>
+              
+            </td>
+       </tr>
+      </tbody>
+    </table>
+    <!-- <button *ngIf="has_prev" (click)="prevPage()"> <i class="fa fa-angle-double-right"></i> </button>
+    <ng-container *ngFor='let in of counter(total_pages) ;let i = index'>
+       <button (click)='getPage(i+1)'> {{i+1}}</button>
+    </ng-container>
+   <button *ngIf="has_next" (click)="nextPage()"> <i class="fa fa-angle-double-left"></i> </button> -->
+  
+  
+  <div class="pagination-controls">
+    <app-pagination
+    [currentPage]="current_page"
+    [totalPages]="total_pages"
+    (pageChanged)="onPageChange($event)"
+  ></app-pagination>
+  <div>
+    <!-- <button (click)="goToPreviousPage()" [disabled]="current_page === 1">Previous</button>
+    <button (click)="goToNextPage()" [disabled]="current_page === total_pages">Next</button> -->
+    <select (change)="goToPage($event)" class="form-control">
+      <option *ngFor="let page of pageNumbers" [value]="page">{{ page }}</option>
+    </select>
+  </div>
+  </div>
+  </div>
+  
+  

@@ -1,0 +1,214 @@
+<mat-form-field>
+  <mat-label>Filter</mat-label>
+  <input matInput (keyup)="applyFilter($event)" placeholder="Ex. ium" #input>
+</mat-form-field>
+<!-- Master Toggle Button -->
+<a mat-raised-button (click)="toggleTableRows()" color="primary">Toggle Rows</a>
+<div>
+  <a>
+    <i class="fa fa-plus-circle" (click)="openAddTitleDialog()"></i>
+    إضافة
+  </a>
+</div>
+<table mat-table [dataSource]="dataEventsList"
+matSort 
+multiTemplateDataRows
+class="mat-elevation-z8"
+>
+
+  <ng-container matColumnDef="id">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by number"
+    > المعرف </th>
+    <td mat-cell *matCellDef="let element;"> 
+     {{ (current_page * 10) + (1) }} </td>
+  </ng-container>
+
+
+  <ng-container matColumnDef="nameArabic">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by name"> اسم الفعالية </th>
+    <td mat-cell *matCellDef="let element"> {{element.nameArabic}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="eventDate">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by date"> التاريخ </th>
+    <td mat-cell *matCellDef="let element"> {{element.eventDate | date:"MMM dd, yyyy"}} </td>
+  </ng-container>
+
+
+  <ng-container matColumnDef="Time">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by time"> الوقت </th>
+    <td mat-cell *matCellDef="let element"> {{element.eventDate | date:"hh:mm a"}} </td>
+  </ng-container>
+
+
+  <ng-container matColumnDef="Actions">
+    <th mat-header-cell *matHeaderCellDef> الاجراءات </th>
+    <td mat-cell *matCellDef="let element">
+      <button class="btn" (click)="alertDelete(element.id)"  >  <i class="fa fa-close"></i></button>
+      <button class="btn" (click)="openAddTitleDialog(element.id)">  <i class="fa fa-edit"></i></button>
+      <a class="btn" (click)="element.isExpanded = !element.isExpanded" >  
+      <i class='fa fa-plus-circle'></i></a>
+    </td>
+  </ng-container>
+
+
+  <!-- Template for details row -->
+  <ng-container matColumnDef="expandedDetail" >
+    <td mat-cell *matCellDef="let element" [attr.colspan]="displayedEventsColumnsList.length" >
+
+      <div class="row event-element-detail" [@detailExpand]="element.isExpanded ? 'expanded' : 'collapsed'">
+        <div class="event-details">
+          <div mat-subheader class="col-md-12">
+             <span class="title">مكان الفعالية</span>  {{element.eventPlaceName}}
+            </div>
+          <div mat-line class="col-md-12"> 
+            <span class="title">الوصف</span>  {{element.description}}</div>
+          <div mat-subheader class="col-md-12">
+            <span class="title">
+              الاسم الأجنبي
+            </span>{{element.nameEnglish}}</div>
+          <div mat-line class="col-md-12">
+            <span class="title">عدد الدعوات المرسلة</span>
+             0 (تم التأكيد 0) (لم يتم التأكيد 0) </div>
+          <div mat-line class="col-md-12">
+            <span class="title">عدد الدعوات العامة</span>
+             2 (قيد الدراسة 0) (تم التأكيد0) (تم الاعتذار 0)</div>
+        </div>
+      </div>
+
+    </td>
+  </ng-container>
+
+
+  <tr mat-header-row *matHeaderRowDef="displayedEventsColumnsList;sticky: true"></tr>
+  <tr mat-row *matRowDef="let element; columns: displayedEventsColumnsList;" class="event-element-row"
+    [class.event-expanded-row]="element.isExpanded"></tr>
+
+  <!-- Extra row to show detail content column -->
+  <tr mat-row *matRowDef="let row; columns: ['expandedDetail']" class="event-detail-row"></tr>
+
+</table>
+<div class="pagination-controls">
+  <app-pagination
+  [currentPage]="current_page"
+  [totalPages]="total_pages"
+  (pageChanged)="onPageChange($event)"
+></app-pagination>
+<div>
+  <select (change)="goToPage($event)" class="form-control">
+    <option *ngFor="let page of pageNumbers" [value]="page">{{ page }}</option>
+  </select>
+</div>
+</div>
+<!-- <div class="g-container">
+    <div>
+      <a>
+        <i class="fa fa-plus-circle" (click)="openAddTitleDialog()"></i>
+        إضافة
+      </a>
+    </div>
+      <table
+      class="table table-striped table-bordered table-condensed table-hover"
+      id="list_49_com_fabrik_49"
+    >
+      <thead>
+        <tr class="fabrik___heading">
+          <th
+            class="heading fabrik_ordercell surename___id 941_order fabrik_list_49_group_139"
+          >
+            <span>م</span>
+          </th>
+          <th
+            class="heading fabrik_ordercell surename___title3 943_order fabrik_list_49_group_139"
+          >
+            <span>اسم الفعالية</span>
+          </th>
+          <th
+          class="heading fabrik_ordercell surename___title3 943_order fabrik_list_49_group_139"
+        >
+          <span>الاسم الأجنبي</span>
+        </th>
+        <th
+        class="heading fabrik_ordercell surename___title3 943_order fabrik_list_49_group_139"
+      >
+        <span>الوصف </span>
+      </th>
+      <th
+      class="heading fabrik_ordercell surename___title3 943_order fabrik_list_49_group_139"
+    >
+      <span>تاريخ الحدث </span>
+    </th>
+    <th
+    class="heading fabrik_ordercell surename___title3 943_order fabrik_list_49_group_139"
+  >
+    <span>وقت الحدث </span>
+  </th>
+      <th
+      class="heading fabrik_ordercell surename___title3 943_order fabrik_list_49_group_139"
+    >
+      <span>مكان الحدث</span>
+    </th>
+          <th
+            class="heading fabrik_ordercell surename___lang 944_order fabrik_list_49_group_139"
+          >
+            <span>اللغة</span>
+          </th>
+          <th class="heading fabrik_ordercell fabrik_select">
+            <span
+              ><input
+                type="checkbox"
+                name="checkAll"
+                class="list_49_checkAll"
+                id="list_49_checkAll"
+            /></span>
+          </th>
+          <th class="heading fabrik_ordercell fabrik_actions">
+            <span
+              ><div class="btn-group">
+                <a
+                  href="#"
+                  class="btn btn-default delete"
+                  data-listref="list_49_com_fabrik_49"
+                  title="حذف"
+                >
+                <i class="fa fa-close"></i></a
+                >
+              </div></span
+            >
+          </th>
+        </tr>
+      </thead>
+    
+      <tbody class="">
+        <tr *ngFor="let item of events ; trackBy: trackByFn ;index as i">
+            <td> {{i+1}}</td>
+            <td>{{item.nameArabic}}</td>
+            <td>{{item.nameEnglish}}</td>
+            <td>{{item.description}}</td>
+            <td> {{item.eventDate | date:"MMM dd, yyyy"}}</td>
+            <td> {{item.eventDate | date:"hh:mm a"}}</td>
+            <td> {{item.eventPlaceName}}</td>
+            <td>{{_appLanguageType(item.language)}}</td>
+            <td><input type="checkbox"></td>
+            <td>
+              <button class="btn" (click)="alertDelete(item.id)"  >  <i class="fa fa-close"></i></button>
+              <button class="btn" (click)="openAddTitleDialog(item.id)">  <i class="fa fa-edit"></i></button>
+              <button class="btn" >  <i class="fa fa-plus-circle"></i></button>
+            </td>
+       
+       </tr>
+      </tbody>
+    </table>
+    <div class="pagination-controls">
+      <app-pagination
+      [currentPage]="current_page"
+      [totalPages]="total_pages"
+      (pageChanged)="onPageChange($event)"
+    ></app-pagination>
+    <div>
+      <select (change)="goToPage($event)" class="form-control">
+        <option *ngFor="let page of pageNumbers" [value]="page">{{ page }}</option>
+      </select>
+    </div>
+    </div>
+  </div> -->

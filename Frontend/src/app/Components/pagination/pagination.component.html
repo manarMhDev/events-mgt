@@ -1,0 +1,9 @@
+<div class="pagination">
+    <button class="btn m-2" (click)="changePage(currentPage - 1)" [disabled]="currentPage === 1">
+        <i class="fa fa-angle-double-right"></i>
+    </button>
+    <span>Page {{ currentPage }} of {{ totalPages }}</span>
+    <button class="btn m-2" (click)="changePage(currentPage + 1)" [disabled]="currentPage === totalPages">
+        <i class="fa fa-angle-double-left"></i>
+    </button>
+  </div>

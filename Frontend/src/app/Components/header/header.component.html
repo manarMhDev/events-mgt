@@ -1,0 +1,55 @@
+<header>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom border-top ">
+      <div class="container">
+        <a class="navbar-brand fs-2 fw-bold " href="/home">
+            <img src="assets/icon/logo.png" class="g-logo" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" *ngIf="isLoggedIn | async">
+          <ul class="navbar-nav mb-2 mb-lg-0  text-center ">
+  
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fw-semibold text-uppercase  me-1 text-danger" href="#"
+                id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                لوحة التحكم
+                <i class="fa fa-angle-down"></i>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/invitations">الدعوات العامة</a></li>
+                <li><a class="dropdown-item" href="/events">الفعاليات </a></li>
+                <li><a class="dropdown-item" routerLink="/titles1" routerDirection="forward">الألقاب الأولى</a></li>
+                <li><a class="dropdown-item" routerLink="/titles2" routerDirection="forward">الألقاب الثانية</a></li>
+                <li><a class="dropdown-item" routerLink="/person-types" routerDirection="forward">الفئات</a></li>
+                <li><a class="dropdown-item" routerLink="/event-places" routerDirection="forward">أماكن الفعاليات</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle redHover fw-semibold text-uppercase text-black  me-1" href="#"
+                id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                يوم الحفل
+                <i class="fa fa-angle-down"></i>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">جميع الدعوات</a></li>
+                <li><a class="dropdown-item" href="/seats">الكراسي</a></li>
+                <li><a class="dropdown-item" routerLink="/seats-types" routerDirection="forward">أنواع الكراسي</a></li>
+                <li><a class="dropdown-item" href="#">الكراسي الفارغة فقط</a></li>
+                <li><a class="dropdown-item" href="#">تقارير الكراسي</a></li>
+              </ul>
+            </li>
+          </ul> 
+          <div >
+            <span class="navbar-text">
+              {{username}}  
+           </span>
+           <button class="btn btn-submit" (click)="logout()">تسجيل خروج</button>
+          </div>
+    
+        </div>
+      </div>
+    </nav>
+  </header>

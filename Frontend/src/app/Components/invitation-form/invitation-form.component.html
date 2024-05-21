@@ -1,0 +1,149 @@
+<div class="g-container">
+    <div class="close-btn">
+      <i class="fa fa-close close-btn" (click)="close()"></i>
+    </div>
+    <div class="header">
+        <h1>{{data.title}}</h1>
+    </div>
+   <hr/>
+    
+    <form [formGroup]="basicForm" (ngSubmit)="submitForm()" novalidate>
+      <mat-grid-list cols="2" rowHeight="100px" [gutterSize]="'10px'">
+        <mat-grid-tile>
+          <mat-form-field appearance="outline">
+          <mat-label>اللقب الأول</mat-label>
+          <mat-select formControlName="title1" required>
+            <mat-option>--</mat-option>
+            <mat-option *ngFor="let title1 of titles1" [value]="title1.id" >
+              {{ title1.name }}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </mat-grid-tile>
+        <mat-grid-tile>
+          <mat-form-field appearance="outline">
+            <mat-label>اللقب الثاني</mat-label>
+            <mat-select formControlName="title2" >
+              <mat-option>--</mat-option>
+              <mat-option *ngFor="let title2 of titles2" [value]="title2.id" >
+                {{ title2.name }}</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </mat-grid-tile>
+        <mat-grid-tile>
+          <mat-form-field appearance="outline">
+            <mat-label>الاسم الكامل</mat-label>
+            <input matInput formControlName="fullName" required >
+          </mat-form-field>
+        </mat-grid-tile>
+        <mat-grid-tile>
+          <mat-form-field appearance="outline"> 
+            <mat-label>رقم الجوال </mat-label>
+            <input matInput formControlName="phone" required>
+         
+          </mat-form-field>
+        </mat-grid-tile>
+        <mat-grid-tile>
+          <mat-form-field  appearance="outline">
+            <mat-label>البريد الالكتروني</mat-label>
+            <input matInput formControlName="email"required >
+          </mat-form-field>
+          </mat-grid-tile>
+          <mat-grid-tile>
+            <mat-form-field  appearance="outline">
+              <mat-label>الجهة</mat-label>
+              <input matInput formControlName="party" >
+            </mat-form-field>
+            </mat-grid-tile>
+            <mat-grid-tile>
+              <mat-form-field  appearance="outline">
+                <mat-label>المنصب</mat-label>
+                <input matInput formControlName="position" >
+              </mat-form-field>
+              </mat-grid-tile>
+              <mat-grid-tile>
+                <mat-form-field  appearance="outline">
+                  <mat-label>الفئة</mat-label>
+                  <mat-select formControlName="personType" required>
+                    <mat-option>--</mat-option>
+                    <mat-option *ngFor="let personTypes of PersonTypes" [value]="personTypes.id" >
+                      {{ personTypes.name }}</mat-option>
+                  </mat-select>
+                </mat-form-field>
+                </mat-grid-tile>
+                <mat-grid-tile>
+                  <mat-form-field  appearance="outline">
+                    <mat-label>المناسبة</mat-label>
+                    <mat-select formControlName="EventId" required>
+                      <mat-option>--</mat-option>
+                      <mat-option *ngFor="let event of events" [value]="event.id" >
+                        {{ event.nameArabic }}</mat-option>
+                    </mat-select>
+                  </mat-form-field>
+                  </mat-grid-tile>
+                <mat-grid-tile>
+                  <mat-form-field  appearance="outline">
+                    <mat-label> حالة الطلب</mat-label>
+                    <mat-select formControlName="invitationStatus" >
+                      <mat-option>--</mat-option>
+                      <mat-option *ngFor="let invitationStatus of _invitationStatusTypeKeys()" [value]="invitationStatus" >
+                        {{ _invitationStatusType[invitationStatus] }}
+                      </mat-option>
+                    </mat-select>
+                  </mat-form-field>
+                  </mat-grid-tile>
+                  <mat-grid-tile>
+                      <mat-label>ارسال بريد </mat-label>
+                      <mat-radio-group  formControlName="sendEmail" >
+                        <mat-radio-button  value="1" style="margin: 10px;">
+                          <mat-label>نعم</mat-label>
+                        </mat-radio-button>
+                        <mat-radio-button [checked]="true" value="0" style="margin: 10px;">
+                          <mat-label>لا</mat-label>
+                        </mat-radio-button>
+                      </mat-radio-group>
+                    </mat-grid-tile>
+                    <mat-grid-tile>
+                      <mat-label>ارسال واتساب </mat-label>
+                      <mat-radio-group  formControlName="sendWhatsapp" >
+                        <mat-radio-button  value="1" style="margin: 10px;">
+                          <mat-label>نعم</mat-label>
+                        </mat-radio-button>
+                        <mat-radio-button [checked]="true" value="0" style="margin: 10px;">
+                          <mat-label>لا</mat-label>
+                        </mat-radio-button>
+                      </mat-radio-group>
+                    </mat-grid-tile>
+                    <mat-grid-tile>
+                      <mat-label>لغة الدعوة </mat-label>
+                      <mat-radio-group  formControlName="Language" >
+                        <mat-radio-button  value="1" style="margin: 10px;">
+                          <mat-label>عربي</mat-label>
+                        </mat-radio-button>
+                        <mat-radio-button [checked]="true" value="2" style="margin: 10px;">
+                          <mat-label>انجليزي</mat-label>
+                        </mat-radio-button>
+                      </mat-radio-group>
+                    </mat-grid-tile>
+                    <mat-grid-tile>
+                        <mat-label>تم تأكيد الحضور؟</mat-label>
+                        <mat-radio-group  formControlName="confirmAttendance">
+                          <mat-radio-button   value="1"  style="margin: 10px;">
+                            <mat-label>نعم</mat-label>
+                          </mat-radio-button>
+                          <mat-radio-button [checked]="true" value="0"  style="margin: 10px;">
+                            <mat-label>لا</mat-label>
+                          </mat-radio-button>
+                        </mat-radio-group>
+                      </mat-grid-tile>
+      </mat-grid-list>
+      <div class="row g-btns" >
+        
+        <div class="col-md-12">
+          <button class="btn btn-submit" >حفظ</button>
+        </div>
+        
+      </div>
+    </form>
+  </div>
+  
+    

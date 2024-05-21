@@ -1,0 +1,86 @@
+
+<div class="g-container">
+    <div class="card">
+        <div class="card-body">
+            <form  *ngIf="!id"
+            [formGroup]="basicForm" (ngSubmit)="submitForm()" novalidate>
+                <mat-form-field appearance="outline"> 
+                    <mat-label>مكان المناسبة </mat-label>
+                    <mat-select formControlName="EventPlaceId" required>
+                      <mat-option>--</mat-option>
+                      <mat-option *ngFor="let place of places" [value]="place.id" >
+                        {{ place.name }}</mat-option>
+                    </mat-select>
+                 
+                  </mat-form-field>
+                  <mat-form-field appearance="outline"> 
+                    <mat-label>فئة الكرسي </mat-label>
+                    <mat-select formControlName="SeatTypeId" required>
+                      <mat-option>--</mat-option>
+                      <mat-option *ngFor="let seatType of seatTypes" [value]="seatType.id" >
+                        {{ seatType.name }}</mat-option>
+                    </mat-select>
+                 
+                  </mat-form-field>
+            
+                    <mat-form-field  appearance="outline">
+                      <mat-label> البادئة</mat-label>
+                      <mat-select formControlName="Prefix" required>
+                        <mat-option>--</mat-option>
+                        <mat-option *ngFor="let prefix of _prefixesKeys()" [value]="prefix" >
+                          {{ _prefixesType[prefix] }}
+                        </mat-option>
+                      </mat-select>
+                    </mat-form-field>
+
+                  <mat-form-field appearance="outline"> 
+                    <mat-label>رقم البداية </mat-label>
+                    <input matInput type="number" min="1" formControlName="start" >
+                 
+                  </mat-form-field>
+                  <mat-form-field appearance="outline"> 
+                    <mat-label>عدد الكراسي </mat-label>
+                    <input matInput type="number" min="1" formControlName="count" >
+                 
+                  </mat-form-field>
+                <div class="row g-btns" >
+                  <div class="col-md-12">
+                    <button class="btn btn-submit" >حفظ</button>
+                  </div>
+                </div>
+              </form>
+              <form  *ngIf="id"
+              [formGroup]="editForm" (ngSubmit)="submitEditForm()" novalidate>
+                  <mat-form-field appearance="outline"> 
+                      <mat-label>مكان المناسبة </mat-label>
+                      <mat-select formControlName="EventPlaceId" required>
+                        <mat-option>--</mat-option>
+                        <mat-option *ngFor="let place of places" [value]="place.id" >
+                          {{ place.name }}</mat-option>
+                      </mat-select>
+                   
+                    </mat-form-field>
+                    <mat-form-field appearance="outline"> 
+                      <mat-label>فئة الكرسي </mat-label>
+                      <mat-select formControlName="SeatTypeId" required>
+                        <mat-option>--</mat-option>
+                        <mat-option *ngFor="let seatType of seatTypes" [value]="seatType.id" >
+                          {{ seatType.name }}</mat-option>
+                      </mat-select>
+                   
+                    </mat-form-field>
+              
+                      <mat-form-field  appearance="outline">
+                        <mat-label> الكود</mat-label>
+                        <input matInput type="text"  formControlName="Code" >
+                      </mat-form-field>
+  
+                  <div class="row g-btns" >
+                    <div class="col-md-12">
+                      <button class="btn btn-submit" >حفظ</button>
+                    </div>
+                  </div>
+                </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,58 @@
+<div class="g-container">
+    <div class="close-btn">
+      <i class="fa fa-close close-btn" (click)="close()"></i>
+    </div>
+    <div class="header">
+        <h1>{{data.title}}</h1>
+    </div>
+   <hr/>
+    
+    <form [formGroup]="basicForm" (ngSubmit)="submitForm()" novalidate>
+      <!-- <mat-card>
+        <mat-card-content> -->
+          <mat-form-field appearance="outline">
+            <mat-label>الاسم العربي</mat-label>
+            <input matInput formControlName="NameArabic" >
+          </mat-form-field>
+          <mat-form-field appearance="outline">
+            <mat-label>الاسم الأجنبي</mat-label>
+            <input matInput formControlName="NameEnglish" >
+          </mat-form-field>
+          <mat-form-field appearance="outline">
+            <mat-label>الوصف</mat-label>
+            <input matInput formControlName="Description" >
+          </mat-form-field>
+          <mat-form-field appearance="outline"> 
+            <mat-label>مكان المناسبة </mat-label>
+            <mat-select formControlName="EventPlaceId" required>
+              <mat-option>--</mat-option>
+              <mat-option *ngFor="let place of places" [value]="place.id" >
+                {{ place.name }}</mat-option>
+            </mat-select>
+         
+          </mat-form-field>
+          <!-- @if (EventPlaceId.hasError('required')) {{
+            <mat-error>Please choose an animal</mat-error>
+          }} -->
+          <mat-form-field floatLabel="always" appearance="outline">
+            <mat-label>تاريخ الحدث</mat-label>
+            <input matInput formControlName="EventDate" [matDatepicker]="datepicker"
+            (click)="datepicker.open()"
+            >
+            <mat-datepicker-toggle matSuffix [for]="datepicker" [disabled]="false">
+            
+            </mat-datepicker-toggle>
+            <mat-datepicker #datepicker [disabled]="false"></mat-datepicker>
+          </mat-form-field>
+     
+      <div class="row g-btns" >
+        
+        <div class="col-md-12">
+          <button class="btn btn-submit" >حفظ</button>
+        </div>
+        
+      </div>
+    </form>
+  </div>
+  
+    

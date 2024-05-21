@@ -1,0 +1,1251 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\invitations\\queries\\getinvitations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\invitations\\queries\\getinvitations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\invitations\\queries\\getinvitationbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\invitations\\queries\\getinvitationbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AADCC89B-B02F-4B15-B362-2FA96C2BC233}|Events.Domain\\Events.Domain.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.domain\\entities\\invitation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AADCC89B-B02F-4B15-B362-2FA96C2BC233}|Events.Domain\\Events.Domain.csproj|solutionrelative:events.domain\\entities\\invitation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C9D5E4-40F3-4861-BEB7-F1111A2A1F61}|Events.Api\\Events.Api.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.api\\controllers\\invitationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C9D5E4-40F3-4861-BEB7-F1111A2A1F61}|Events.Api\\Events.Api.csproj|solutionrelative:events.api\\controllers\\invitationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\invitations\\commands\\updateinvitation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\invitations\\commands\\updateinvitation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\invitations\\commands\\createinvitation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\invitations\\commands\\createinvitation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\events\\commands\\createevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\events\\commands\\createevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Events/True/SqlTable/Event.Events.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C9D5E4-40F3-4861-BEB7-F1111A2A1F61}|Events.Api\\Events.Api.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.api\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C9D5E4-40F3-4861-BEB7-F1111A2A1F61}|Events.Api\\Events.Api.csproj|solutionrelative:events.api\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\eventplaces\\commands\\createplace\\createeventplace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\eventplaces\\commands\\createplace\\createeventplace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Events/True/SqlTable/Event.EventPlaces.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\seatstypes\\commands\\updateseatstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\seatstypes\\commands\\updateseatstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\events\\commands\\updateevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\events\\commands\\updateevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\events\\queries\\geteventbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\events\\queries\\geteventbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\eventplaces\\commands\\update\\updateeventplace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\eventplaces\\commands\\update\\updateeventplace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\eventplaces\\queries\\getplaces\\getalleventplaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\eventplaces\\queries\\getplaces\\getalleventplaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\eventplaces\\queries\\getplaces\\geteventplacebyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\eventplaces\\queries\\getplaces\\geteventplacebyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\eventplaces\\queries\\getplaces\\geteventplaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\eventplaces\\queries\\getplaces\\geteventplaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\events\\queries\\getevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\events\\queries\\getevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\persontype\\commands\\updatepersontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\persontype\\commands\\updatepersontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\titlesecond\\commands\\updatetitlesecond.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\titlesecond\\commands\\updatetitlesecond.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\persontype\\queries\\getallpersontypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\persontype\\queries\\getallpersontypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\persontype\\commands\\createpersontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\persontype\\commands\\createpersontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\persontype\\queries\\getpersontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\persontype\\queries\\getpersontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\seatstypes\\queries\\getallseattypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\seatstypes\\queries\\getallseattypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\persontype\\queries\\getpersontypebyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\persontype\\queries\\getpersontypebyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\seatstypes\\commands\\createseatstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\seatstypes\\commands\\createseatstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\titlesecond\\commands\\createtitlesecond.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\titlesecond\\commands\\createtitlesecond.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\titlesecond\\queries\\gettitlesecondbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\titlesecond\\queries\\gettitlesecondbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\seatstypes\\queries\\getseatstypebyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\seatstypes\\queries\\getseatstypebyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\seatstypes\\queries\\getseatstypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\seatstypes\\queries\\getseatstypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\titlefirst\\commands\\updatetitlefirst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\titlefirst\\commands\\updatetitlefirst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\titlesecond\\queries\\getalltitles2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\titlesecond\\queries\\getalltitles2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\titlefirst\\commands\\createtitlefirst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\titlefirst\\commands\\createtitlefirst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\titlefirst\\queries\\getalltitles1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\titlefirst\\queries\\getalltitles1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\titlefirst\\queries\\gettitlefirst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\titlefirst\\queries\\gettitlefirst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\titlefirst\\queries\\gettitlefirstbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\titlefirst\\queries\\gettitlefirstbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\titlesecond\\queries\\gettitlesecond.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\titlesecond\\queries\\gettitlesecond.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AADCC89B-B02F-4B15-B362-2FA96C2BC233}|Events.Domain\\Events.Domain.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.domain\\entities\\titlesecond.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AADCC89B-B02F-4B15-B362-2FA96C2BC233}|Events.Domain\\Events.Domain.csproj|solutionrelative:events.domain\\entities\\titlesecond.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AADCC89B-B02F-4B15-B362-2FA96C2BC233}|Events.Domain\\Events.Domain.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.domain\\entities\\titlefirst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AADCC89B-B02F-4B15-B362-2FA96C2BC233}|Events.Domain\\Events.Domain.csproj|solutionrelative:events.domain\\entities\\titlefirst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AADCC89B-B02F-4B15-B362-2FA96C2BC233}|Events.Domain\\Events.Domain.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.domain\\entities\\seatstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AADCC89B-B02F-4B15-B362-2FA96C2BC233}|Events.Domain\\Events.Domain.csproj|solutionrelative:events.domain\\entities\\seatstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AADCC89B-B02F-4B15-B362-2FA96C2BC233}|Events.Domain\\Events.Domain.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.domain\\entities\\placeseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AADCC89B-B02F-4B15-B362-2FA96C2BC233}|Events.Domain\\Events.Domain.csproj|solutionrelative:events.domain\\entities\\placeseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AADCC89B-B02F-4B15-B362-2FA96C2BC233}|Events.Domain\\Events.Domain.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.domain\\entities\\persontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AADCC89B-B02F-4B15-B362-2FA96C2BC233}|Events.Domain\\Events.Domain.csproj|solutionrelative:events.domain\\entities\\persontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AADCC89B-B02F-4B15-B362-2FA96C2BC233}|Events.Domain\\Events.Domain.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.domain\\entities\\eventseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AADCC89B-B02F-4B15-B362-2FA96C2BC233}|Events.Domain\\Events.Domain.csproj|solutionrelative:events.domain\\entities\\eventseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AADCC89B-B02F-4B15-B362-2FA96C2BC233}|Events.Domain\\Events.Domain.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.domain\\entities\\eventplace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AADCC89B-B02F-4B15-B362-2FA96C2BC233}|Events.Domain\\Events.Domain.csproj|solutionrelative:events.domain\\entities\\eventplace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AADCC89B-B02F-4B15-B362-2FA96C2BC233}|Events.Domain\\Events.Domain.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.domain\\entities\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AADCC89B-B02F-4B15-B362-2FA96C2BC233}|Events.Domain\\Events.Domain.csproj|solutionrelative:events.domain\\entities\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AADCC89B-B02F-4B15-B362-2FA96C2BC233}|Events.Domain\\Events.Domain.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.domain\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AADCC89B-B02F-4B15-B362-2FA96C2BC233}|Events.Domain\\Events.Domain.csproj|solutionrelative:events.domain\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\seats\\queries\\getseats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\seats\\queries\\getseats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\seats\\queries\\getnontakenseats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\seats\\queries\\getnontakenseats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\seats\\commands\\bookaseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\seats\\commands\\bookaseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C9D5E4-40F3-4861-BEB7-F1111A2A1F61}|Events.Api\\Events.Api.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.api\\controllers\\seatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C9D5E4-40F3-4861-BEB7-F1111A2A1F61}|Events.Api\\Events.Api.csproj|solutionrelative:events.api\\controllers\\seatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C9D5E4-40F3-4861-BEB7-F1111A2A1F61}|Events.Api\\Events.Api.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.api\\controllers\\seatstypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C9D5E4-40F3-4861-BEB7-F1111A2A1F61}|Events.Api\\Events.Api.csproj|solutionrelative:events.api\\controllers\\seatstypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EFA80E1-6375-405D-90E0-F2ADDB7E3E33}|Events.Infrastructure\\Events.Infrastructure.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.infrastructure\\entityconfigurations\\eventseatconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EFA80E1-6375-405D-90E0-F2ADDB7E3E33}|Events.Infrastructure\\Events.Infrastructure.csproj|solutionrelative:events.infrastructure\\entityconfigurations\\eventseatconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\seats\\commands\\createseats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\seats\\commands\\createseats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\seats\\commands\\updateaseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\seats\\commands\\updateaseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\seats\\commands\\deleteaseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\seats\\commands\\deleteaseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C9D5E4-40F3-4861-BEB7-F1111A2A1F61}|Events.Api\\Events.Api.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.api\\controllers\\secondtitlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C9D5E4-40F3-4861-BEB7-F1111A2A1F61}|Events.Api\\Events.Api.csproj|solutionrelative:events.api\\controllers\\secondtitlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EFA80E1-6375-405D-90E0-F2ADDB7E3E33}|Events.Infrastructure\\Events.Infrastructure.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.infrastructure\\repositories\\unitofworkbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EFA80E1-6375-405D-90E0-F2ADDB7E3E33}|Events.Infrastructure\\Events.Infrastructure.csproj|solutionrelative:events.infrastructure\\repositories\\unitofworkbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AADCC89B-B02F-4B15-B362-2FA96C2BC233}|Events.Domain\\Events.Domain.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.domain\\abstractions\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AADCC89B-B02F-4B15-B362-2FA96C2BC233}|Events.Domain\\Events.Domain.csproj|solutionrelative:events.domain\\abstractions\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\events.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\events.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EFA80E1-6375-405D-90E0-F2ADDB7E3E33}|Events.Infrastructure\\Events.Infrastructure.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.infrastructure\\entityconfigurations\\eventplaceconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EFA80E1-6375-405D-90E0-F2ADDB7E3E33}|Events.Infrastructure\\Events.Infrastructure.csproj|solutionrelative:events.infrastructure\\entityconfigurations\\eventplaceconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C9D5E4-40F3-4861-BEB7-F1111A2A1F61}|Events.Api\\Events.Api.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.api\\controllers\\eventplacecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C9D5E4-40F3-4861-BEB7-F1111A2A1F61}|Events.Api\\Events.Api.csproj|solutionrelative:events.api\\controllers\\eventplacecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EFA80E1-6375-405D-90E0-F2ADDB7E3E33}|Events.Infrastructure\\Events.Infrastructure.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.infrastructure\\entityconfigurations\\placeseatconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EFA80E1-6375-405D-90E0-F2ADDB7E3E33}|Events.Infrastructure\\Events.Infrastructure.csproj|solutionrelative:events.infrastructure\\entityconfigurations\\placeseatconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EFA80E1-6375-405D-90E0-F2ADDB7E3E33}|Events.Infrastructure\\Events.Infrastructure.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.infrastructure\\entityconfigurations\\eventconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EFA80E1-6375-405D-90E0-F2ADDB7E3E33}|Events.Infrastructure\\Events.Infrastructure.csproj|solutionrelative:events.infrastructure\\entityconfigurations\\eventconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EFA80E1-6375-405D-90E0-F2ADDB7E3E33}|Events.Infrastructure\\Events.Infrastructure.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.infrastructure\\entityconfigurations\\titlefirstconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EFA80E1-6375-405D-90E0-F2ADDB7E3E33}|Events.Infrastructure\\Events.Infrastructure.csproj|solutionrelative:events.infrastructure\\entityconfigurations\\titlefirstconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EFA80E1-6375-405D-90E0-F2ADDB7E3E33}|Events.Infrastructure\\Events.Infrastructure.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.infrastructure\\entityconfigurations\\chairtypeconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EFA80E1-6375-405D-90E0-F2ADDB7E3E33}|Events.Infrastructure\\Events.Infrastructure.csproj|solutionrelative:events.infrastructure\\entityconfigurations\\chairtypeconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Infrastructure\\Migrations\\20240517175705_charisplaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Events.Infrastructure\\Migrations\\20240517175705_charisplaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AADCC89B-B02F-4B15-B362-2FA96C2BC233}|Events.Domain\\Events.Domain.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.domain\\enums\\prefixes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AADCC89B-B02F-4B15-B362-2FA96C2BC233}|Events.Domain\\Events.Domain.csproj|solutionrelative:events.domain\\enums\\prefixes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AADCC89B-B02F-4B15-B362-2FA96C2BC233}|Events.Domain\\Events.Domain.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.domain\\baseentities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AADCC89B-B02F-4B15-B362-2FA96C2BC233}|Events.Domain\\Events.Domain.csproj|solutionrelative:events.domain\\baseentities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C9D5E4-40F3-4861-BEB7-F1111A2A1F61}|Events.Api\\Events.Api.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.api\\controllers\\persontypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C9D5E4-40F3-4861-BEB7-F1111A2A1F61}|Events.Api\\Events.Api.csproj|solutionrelative:events.api\\controllers\\persontypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\invitations\\commands\\deleteinvitation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\invitations\\commands\\deleteinvitation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C9D5E4-40F3-4861-BEB7-F1111A2A1F61}|Events.Api\\Events.Api.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.api\\controllers\\firsttitlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C9D5E4-40F3-4861-BEB7-F1111A2A1F61}|Events.Api\\Events.Api.csproj|solutionrelative:events.api\\controllers\\firsttitlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AADCC89B-B02F-4B15-B362-2FA96C2BC233}|Events.Domain\\Events.Domain.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.domain\\enums\\invitationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AADCC89B-B02F-4B15-B362-2FA96C2BC233}|Events.Domain\\Events.Domain.csproj|solutionrelative:events.domain\\enums\\invitationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AADCC89B-B02F-4B15-B362-2FA96C2BC233}|Events.Domain\\Events.Domain.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.domain\\baseentities\\ibaseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AADCC89B-B02F-4B15-B362-2FA96C2BC233}|Events.Domain\\Events.Domain.csproj|solutionrelative:events.domain\\baseentities\\ibaseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EFA80E1-6375-405D-90E0-F2ADDB7E3E33}|Events.Infrastructure\\Events.Infrastructure.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.infrastructure\\abstractions\\ibaseentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EFA80E1-6375-405D-90E0-F2ADDB7E3E33}|Events.Infrastructure\\Events.Infrastructure.csproj|solutionrelative:events.infrastructure\\abstractions\\ibaseentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\events\\queries\\getallevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\events\\queries\\getallevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|c:\\users\\manarmh\\source\\codes\\events\\backend\\events.application\\events\\commands\\deleteevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD22E3-8B71-4E88-84CA-F656A6D62700}|Events.Application\\Events.Application.csproj|solutionrelative:events.application\\events\\commands\\deleteevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateInvitation.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Invitations\\Commands\\CreateInvitation.cs",
+              "RelativeDocumentMoniker": "Events.Application\\Invitations\\Commands\\CreateInvitation.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Invitations\\Commands\\CreateInvitation.cs",
+              "RelativeToolTip": "Events.Application\\Invitations\\Commands\\CreateInvitation.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAACQAAAB5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T13:33:29.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Invitation.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Domain\\Entities\\Invitation.cs",
+              "RelativeDocumentMoniker": "Events.Domain\\Entities\\Invitation.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Domain\\Entities\\Invitation.cs",
+              "RelativeToolTip": "Events.Domain\\Entities\\Invitation.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAAG8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:45:48.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetInvitationById.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Invitations\\Queries\\GetInvitationById.cs",
+              "RelativeDocumentMoniker": "Events.Application\\Invitations\\Queries\\GetInvitationById.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Invitations\\Queries\\GetInvitationById.cs",
+              "RelativeToolTip": "Events.Application\\Invitations\\Queries\\GetInvitationById.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAADEAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T18:49:26.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetInvitations.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Invitations\\Queries\\GetInvitations.cs",
+              "RelativeDocumentMoniker": "Events.Application\\Invitations\\Queries\\GetInvitations.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Invitations\\Queries\\GetInvitations.cs",
+              "RelativeToolTip": "Events.Application\\Invitations\\Queries\\GetInvitations.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADYAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T18:39:50.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateInvitation.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Invitations\\Commands\\UpdateInvitation.cs",
+              "RelativeDocumentMoniker": "Events.Application\\Invitations\\Commands\\UpdateInvitation.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Invitations\\Commands\\UpdateInvitation.cs",
+              "RelativeToolTip": "Events.Application\\Invitations\\Commands\\UpdateInvitation.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAACIAAAB5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T16:47:20.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InvitationController.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Api\\Controllers\\InvitationController.cs",
+              "RelativeDocumentMoniker": "Events.Api\\Controllers\\InvitationController.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Api\\Controllers\\InvitationController.cs",
+              "RelativeToolTip": "Events.Api\\Controllers\\InvitationController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAEwCkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T18:02:29.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateEvent.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Events\\Commands\\CreateEvent.cs",
+              "RelativeDocumentMoniker": "Events.Application\\Events\\Commands\\CreateEvent.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Events\\Commands\\CreateEvent.cs",
+              "RelativeToolTip": "Events.Application\\Events\\Commands\\CreateEvent.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACMAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-09T08:12:44.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateEventPlace.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\EventPlaces\\Commands\\CreatePlace\\CreateEventPlace.cs",
+              "RelativeDocumentMoniker": "Events.Application\\EventPlaces\\Commands\\CreatePlace\\CreateEventPlace.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\EventPlaces\\Commands\\CreatePlace\\CreateEventPlace.cs",
+              "RelativeToolTip": "Events.Application\\EventPlaces\\Commands\\CreatePlace\\CreateEventPlace.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAvwCUAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:48:26.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetAllEventPlaces.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\EventPlaces\\Queries\\GetPlaces\\GetAllEventPlaces.cs",
+              "RelativeDocumentMoniker": "Events.Application\\EventPlaces\\Queries\\GetPlaces\\GetAllEventPlaces.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\EventPlaces\\Queries\\GetPlaces\\GetAllEventPlaces.cs",
+              "RelativeToolTip": "Events.Application\\EventPlaces\\Queries\\GetPlaces\\GetAllEventPlaces.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:52:34.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UpdateEventPlace.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\EventPlaces\\Commands\\Update\\UpdateEventPlace.cs",
+              "RelativeDocumentMoniker": "Events.Application\\EventPlaces\\Commands\\Update\\UpdateEventPlace.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\EventPlaces\\Commands\\Update\\UpdateEventPlace.cs",
+              "RelativeToolTip": "Events.Application\\EventPlaces\\Commands\\Update\\UpdateEventPlace.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAAADsAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:52:43.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Event.Events [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Events/True/SqlTable/Event.Events.sql",
+              "ToolTip": "Event.Events [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-21T10:54:39.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Api\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "Events.Api\\Controllers\\EventsController.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Api\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "Events.Api\\Controllers\\EventsController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAACgAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-09T08:09:23.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetEventById.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Events\\Queries\\GetEventById.cs",
+              "RelativeDocumentMoniker": "Events.Application\\Events\\Queries\\GetEventById.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Events\\Queries\\GetEventById.cs",
+              "RelativeToolTip": "Events.Application\\Events\\Queries\\GetEventById.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwDIAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:52:59.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UpdateEvent.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Events\\Commands\\UpdateEvent.cs",
+              "RelativeDocumentMoniker": "Events.Application\\Events\\Commands\\UpdateEvent.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Events\\Commands\\UpdateEvent.cs",
+              "RelativeToolTip": "Events.Application\\Events\\Commands\\UpdateEvent.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAwwDcAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:53:24.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UpdateSeatsType.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\SeatsTypes\\Commands\\UpdateSeatsType.cs",
+              "RelativeDocumentMoniker": "Events.Application\\SeatsTypes\\Commands\\UpdateSeatsType.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\SeatsTypes\\Commands\\UpdateSeatsType.cs",
+              "RelativeToolTip": "Events.Application\\SeatsTypes\\Commands\\UpdateSeatsType.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAIwDoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:53:34.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Event.EventPlaces [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Events/True/SqlTable/Event.EventPlaces.sql",
+              "ToolTip": "Event.EventPlaces [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-21T09:23:11.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UpdatePersonType.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\PersonType\\Commands\\UpdatePersonType.cs",
+              "RelativeDocumentMoniker": "Events.Application\\PersonType\\Commands\\UpdatePersonType.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\PersonType\\Commands\\UpdatePersonType.cs",
+              "RelativeToolTip": "Events.Application\\PersonType\\Commands\\UpdatePersonType.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAIwCAAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:51:41.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UpdateTitleSecond.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\TitleSecond\\Commands\\UpdateTitleSecond.cs",
+              "RelativeDocumentMoniker": "Events.Application\\TitleSecond\\Commands\\UpdateTitleSecond.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\TitleSecond\\Commands\\UpdateTitleSecond.cs",
+              "RelativeToolTip": "Events.Application\\TitleSecond\\Commands\\UpdateTitleSecond.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAvwCcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:51:26.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CreatePersonType.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\PersonType\\Commands\\CreatePersonType.cs",
+              "RelativeDocumentMoniker": "Events.Application\\PersonType\\Commands\\CreatePersonType.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\PersonType\\Commands\\CreatePersonType.cs",
+              "RelativeToolTip": "Events.Application\\PersonType\\Commands\\CreatePersonType.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAmwCsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:51:08.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GetEvents.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Events\\Queries\\GetEvents.cs",
+              "RelativeDocumentMoniker": "Events.Application\\Events\\Queries\\GetEvents.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Events\\Queries\\GetEvents.cs",
+              "RelativeToolTip": "Events.Application\\Events\\Queries\\GetEvents.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwCkAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-09T08:47:46.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GetEventPlaces.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\EventPlaces\\Queries\\GetPlaces\\GetEventPlaces.cs",
+              "RelativeDocumentMoniker": "Events.Application\\EventPlaces\\Queries\\GetPlaces\\GetEventPlaces.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\EventPlaces\\Queries\\GetPlaces\\GetEventPlaces.cs",
+              "RelativeToolTip": "Events.Application\\EventPlaces\\Queries\\GetPlaces\\GetEventPlaces.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAvwCUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-09T09:18:04.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GetEventPlaceById.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\EventPlaces\\Queries\\GetPlaces\\GetEventPlaceById.cs",
+              "RelativeDocumentMoniker": "Events.Application\\EventPlaces\\Queries\\GetPlaces\\GetEventPlaceById.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\EventPlaces\\Queries\\GetPlaces\\GetEventPlaceById.cs",
+              "RelativeToolTip": "Events.Application\\EventPlaces\\Queries\\GetPlaces\\GetEventPlaceById.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwC8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-09T09:18:06.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GetPersonType.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\PersonType\\Queries\\GetPersonType.cs",
+              "RelativeDocumentMoniker": "Events.Application\\PersonType\\Queries\\GetPersonType.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\PersonType\\Queries\\GetPersonType.cs",
+              "RelativeToolTip": "Events.Application\\PersonType\\Queries\\GetPersonType.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAcwC8AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:50:58.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GetAllSeatTypes.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\SeatsTypes\\Queries\\GetAllSeatTypes.cs",
+              "RelativeDocumentMoniker": "Events.Application\\SeatsTypes\\Queries\\GetAllSeatTypes.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\SeatsTypes\\Queries\\GetAllSeatTypes.cs",
+              "RelativeToolTip": "Events.Application\\SeatsTypes\\Queries\\GetAllSeatTypes.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAwwCwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:50:47.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GetPersonTypeById.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\PersonType\\Queries\\GetPersonTypeById.cs",
+              "RelativeDocumentMoniker": "Events.Application\\PersonType\\Queries\\GetPersonTypeById.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\PersonType\\Queries\\GetPersonTypeById.cs",
+              "RelativeToolTip": "Events.Application\\PersonType\\Queries\\GetPersonTypeById.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAACMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:50:35.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CreateTitleSecond.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\TitleSecond\\Commands\\CreateTitleSecond.cs",
+              "RelativeDocumentMoniker": "Events.Application\\TitleSecond\\Commands\\CreateTitleSecond.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\TitleSecond\\Commands\\CreateTitleSecond.cs",
+              "RelativeToolTip": "Events.Application\\TitleSecond\\Commands\\CreateTitleSecond.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAmwCsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:50:15.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GetAllPersonTypes.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\PersonType\\Queries\\GetAllPersonTypes.cs",
+              "RelativeDocumentMoniker": "Events.Application\\PersonType\\Queries\\GetAllPersonTypes.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\PersonType\\Queries\\GetAllPersonTypes.cs",
+              "RelativeToolTip": "Events.Application\\PersonType\\Queries\\GetAllPersonTypes.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAIA8wCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T20:21:37.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "GetTitleSecondById.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\TitleSecond\\Queries\\GetTitleSecondById.cs",
+              "RelativeDocumentMoniker": "Events.Application\\TitleSecond\\Queries\\GetTitleSecondById.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\TitleSecond\\Queries\\GetTitleSecondById.cs",
+              "RelativeToolTip": "Events.Application\\TitleSecond\\Queries\\GetTitleSecondById.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAcwCoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:50:04.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "GetSeatsTypes.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\SeatsTypes\\Queries\\GetSeatsTypes.cs",
+              "RelativeDocumentMoniker": "Events.Application\\SeatsTypes\\Queries\\GetSeatsTypes.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\SeatsTypes\\Queries\\GetSeatsTypes.cs",
+              "RelativeToolTip": "Events.Application\\SeatsTypes\\Queries\\GetSeatsTypes.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAADAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:49:39.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UpdateTitleFirst.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\TitleFirst\\Commands\\UpdateTitleFirst.cs",
+              "RelativeDocumentMoniker": "Events.Application\\TitleFirst\\Commands\\UpdateTitleFirst.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\TitleFirst\\Commands\\UpdateTitleFirst.cs",
+              "RelativeToolTip": "Events.Application\\TitleFirst\\Commands\\UpdateTitleFirst.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAvwCAAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:49:26.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CreateTitleFirst.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\TitleFirst\\Commands\\CreateTitleFirst.cs",
+              "RelativeDocumentMoniker": "Events.Application\\TitleFirst\\Commands\\CreateTitleFirst.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\TitleFirst\\Commands\\CreateTitleFirst.cs",
+              "RelativeToolTip": "Events.Application\\TitleFirst\\Commands\\CreateTitleFirst.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAA8wCMAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:49:09.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CreateSeatsType.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\SeatsTypes\\Commands\\CreateSeatsType.cs",
+              "RelativeDocumentMoniker": "Events.Application\\SeatsTypes\\Commands\\CreateSeatsType.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\SeatsTypes\\Commands\\CreateSeatsType.cs",
+              "RelativeToolTip": "Events.Application\\SeatsTypes\\Commands\\CreateSeatsType.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAcwD0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T06:30:15.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "GetTitleFirstById.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\TitleFirst\\Queries\\GetTitleFirstById.cs",
+              "RelativeDocumentMoniker": "Events.Application\\TitleFirst\\Queries\\GetTitleFirstById.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\TitleFirst\\Queries\\GetTitleFirstById.cs",
+              "RelativeToolTip": "Events.Application\\TitleFirst\\Queries\\GetTitleFirstById.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAIwCoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:48:40.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "GetSeatsTypeById.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\SeatsTypes\\Queries\\GetSeatsTypeById.cs",
+              "RelativeDocumentMoniker": "Events.Application\\SeatsTypes\\Queries\\GetSeatsTypeById.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\SeatsTypes\\Queries\\GetSeatsTypeById.cs",
+              "RelativeToolTip": "Events.Application\\SeatsTypes\\Queries\\GetSeatsTypeById.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAIwC0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T19:38:34.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "TitleSecond.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Domain\\Entities\\TitleSecond.cs",
+              "RelativeDocumentMoniker": "Events.Domain\\Entities\\TitleSecond.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Domain\\Entities\\TitleSecond.cs",
+              "RelativeToolTip": "Events.Domain\\Entities\\TitleSecond.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:47:11.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "TitleFirst.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Domain\\Entities\\TitleFirst.cs",
+              "RelativeDocumentMoniker": "Events.Domain\\Entities\\TitleFirst.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Domain\\Entities\\TitleFirst.cs",
+              "RelativeToolTip": "Events.Domain\\Entities\\TitleFirst.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:46:54.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "GetTitleFirst.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\TitleFirst\\Queries\\GetTitleFirst.cs",
+              "RelativeDocumentMoniker": "Events.Application\\TitleFirst\\Queries\\GetTitleFirst.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\TitleFirst\\Queries\\GetTitleFirst.cs",
+              "RelativeToolTip": "Events.Application\\TitleFirst\\Queries\\GetTitleFirst.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAvwCQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T20:12:58.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "GetAllTitles2.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\TitleSecond\\Queries\\GetAllTitles2.cs",
+              "RelativeDocumentMoniker": "Events.Application\\TitleSecond\\Queries\\GetAllTitles2.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\TitleSecond\\Queries\\GetAllTitles2.cs",
+              "RelativeToolTip": "Events.Application\\TitleSecond\\Queries\\GetAllTitles2.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAIA8wCAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T20:18:46.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "GetAllTitles1.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\TitleFirst\\Queries\\GetAllTitles1.cs",
+              "RelativeDocumentMoniker": "Events.Application\\TitleFirst\\Queries\\GetAllTitles1.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\TitleFirst\\Queries\\GetAllTitles1.cs",
+              "RelativeToolTip": "Events.Application\\TitleFirst\\Queries\\GetAllTitles1.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAIA8wCEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T20:11:44.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "EventSeat.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Domain\\Entities\\EventSeat.cs",
+              "RelativeDocumentMoniker": "Events.Domain\\Entities\\EventSeat.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Domain\\Entities\\EventSeat.cs",
+              "RelativeToolTip": "Events.Domain\\Entities\\EventSeat.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T17:48:49.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Domain\\Entities\\Event.cs",
+              "RelativeDocumentMoniker": "Events.Domain\\Entities\\Event.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Domain\\Entities\\Event.cs",
+              "RelativeToolTip": "Events.Domain\\Entities\\Event.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAACAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T09:03:29.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "GetTitleSecond.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\TitleSecond\\Queries\\GetTitleSecond.cs",
+              "RelativeDocumentMoniker": "Events.Application\\TitleSecond\\Queries\\GetTitleSecond.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\TitleSecond\\Queries\\GetTitleSecond.cs",
+              "RelativeToolTip": "Events.Application\\TitleSecond\\Queries\\GetTitleSecond.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAvwCQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T20:19:40.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Domain\\Entities\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Events.Domain\\Entities\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Domain\\Entities\\ApplicationUser.cs",
+              "RelativeToolTip": "Events.Domain\\Entities\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:44:24.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "GetSeats.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Seats\\Queries\\GetSeats.cs",
+              "RelativeDocumentMoniker": "Events.Application\\Seats\\Queries\\GetSeats.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Seats\\Queries\\GetSeats.cs",
+              "RelativeToolTip": "Events.Application\\Seats\\Queries\\GetSeats.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T18:28:00.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "PersonType.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Domain\\Entities\\PersonType.cs",
+              "RelativeDocumentMoniker": "Events.Domain\\Entities\\PersonType.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Domain\\Entities\\PersonType.cs",
+              "RelativeToolTip": "Events.Domain\\Entities\\PersonType.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T16:51:17.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PlaceSeat.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Domain\\Entities\\PlaceSeat.cs",
+              "RelativeDocumentMoniker": "Events.Domain\\Entities\\PlaceSeat.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Domain\\Entities\\PlaceSeat.cs",
+              "RelativeToolTip": "Events.Domain\\Entities\\PlaceSeat.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAAsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T18:03:31.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "SeatsType.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Domain\\Entities\\SeatsType.cs",
+              "RelativeDocumentMoniker": "Events.Domain\\Entities\\SeatsType.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Domain\\Entities\\SeatsType.cs",
+              "RelativeToolTip": "Events.Domain\\Entities\\SeatsType.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAUwBgAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T18:15:10.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "SeatsController.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Api\\Controllers\\SeatsController.cs",
+              "RelativeDocumentMoniker": "Events.Api\\Controllers\\SeatsController.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Api\\Controllers\\SeatsController.cs",
+              "RelativeToolTip": "Events.Api\\Controllers\\SeatsController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACYAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T18:06:58.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "SeatsTypeController.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Api\\Controllers\\SeatsTypeController.cs",
+              "RelativeDocumentMoniker": "Events.Api\\Controllers\\SeatsTypeController.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Api\\Controllers\\SeatsTypeController.cs",
+              "RelativeToolTip": "Events.Api\\Controllers\\SeatsTypeController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAADIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T07:01:02.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "EventPlace.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Domain\\Entities\\EventPlace.cs",
+              "RelativeDocumentMoniker": "Events.Domain\\Entities\\EventPlace.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Domain\\Entities\\EventPlace.cs",
+              "RelativeToolTip": "Events.Domain\\Entities\\EventPlace.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAACEAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-09T08:48:47.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "BookASeat.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Seats\\Commands\\BookASeat.cs",
+              "RelativeDocumentMoniker": "Events.Application\\Seats\\Commands\\BookASeat.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Seats\\Commands\\BookASeat.cs",
+              "RelativeToolTip": "Events.Application\\Seats\\Commands\\BookASeat.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAADQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T08:39:51.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "GetNonTakenSeats.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Seats\\Queries\\GetNonTakenSeats.cs",
+              "RelativeDocumentMoniker": "Events.Application\\Seats\\Queries\\GetNonTakenSeats.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Seats\\Queries\\GetNonTakenSeats.cs",
+              "RelativeToolTip": "Events.Application\\Seats\\Queries\\GetNonTakenSeats.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAqwB8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T08:58:37.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "EventSeatConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Infrastructure\\EntityConfigurations\\EventSeatConfigurations.cs",
+              "RelativeDocumentMoniker": "Events.Infrastructure\\EntityConfigurations\\EventSeatConfigurations.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Infrastructure\\EntityConfigurations\\EventSeatConfigurations.cs",
+              "RelativeToolTip": "Events.Infrastructure\\EntityConfigurations\\EventSeatConfigurations.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T17:52:56.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "CreateSeats.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Seats\\Commands\\CreateSeats.cs",
+              "RelativeDocumentMoniker": "Events.Application\\Seats\\Commands\\CreateSeats.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Seats\\Commands\\CreateSeats.cs",
+              "RelativeToolTip": "Events.Application\\Seats\\Commands\\CreateSeats.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAkwDwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T17:46:22.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "UpdateASeat.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Seats\\Commands\\UpdateASeat.cs",
+              "RelativeDocumentMoniker": "Events.Application\\Seats\\Commands\\UpdateASeat.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Seats\\Commands\\UpdateASeat.cs",
+              "RelativeToolTip": "Events.Application\\Seats\\Commands\\UpdateASeat.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAACUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T06:27:16.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "DeleteASeat.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Seats\\Commands\\DeleteASeat.cs",
+              "RelativeDocumentMoniker": "Events.Application\\Seats\\Commands\\DeleteASeat.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Seats\\Commands\\DeleteASeat.cs",
+              "RelativeToolTip": "Events.Application\\Seats\\Commands\\DeleteASeat.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAAB0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T06:24:16.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "UnitOfWorkBase.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Infrastructure\\Repositories\\UnitOfWorkBase.cs",
+              "RelativeDocumentMoniker": "Events.Infrastructure\\Repositories\\UnitOfWorkBase.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Infrastructure\\Repositories\\UnitOfWorkBase.cs",
+              "RelativeToolTip": "Events.Infrastructure\\Repositories\\UnitOfWorkBase.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAACQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T17:59:57.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "SecondTitleController.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Api\\Controllers\\SecondTitleController.cs",
+              "RelativeDocumentMoniker": "Events.Api\\Controllers\\SecondTitleController.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Api\\Controllers\\SecondTitleController.cs",
+              "RelativeToolTip": "Events.Api\\Controllers\\SecondTitleController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAkwCgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T20:26:00.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Domain\\Abstractions\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Events.Domain\\Abstractions\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Domain\\Abstractions\\IUnitOfWork.cs",
+              "RelativeToolTip": "Events.Domain\\Abstractions\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T18:00:01.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Events.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Events.Application.csproj",
+              "RelativeDocumentMoniker": "Events.Application\\Events.Application.csproj",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Events.Application.csproj",
+              "RelativeToolTip": "Events.Application\\Events.Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-19T17:44:59.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "EventPlaceConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Infrastructure\\EntityConfigurations\\EventPlaceConfigurations.cs",
+              "RelativeDocumentMoniker": "Events.Infrastructure\\EntityConfigurations\\EventPlaceConfigurations.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Infrastructure\\EntityConfigurations\\EventPlaceConfigurations.cs",
+              "RelativeToolTip": "Events.Infrastructure\\EntityConfigurations\\EventPlaceConfigurations.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T18:23:58.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "EventConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Infrastructure\\EntityConfigurations\\EventConfigurations.cs",
+              "RelativeDocumentMoniker": "Events.Infrastructure\\EntityConfigurations\\EventConfigurations.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Infrastructure\\EntityConfigurations\\EventConfigurations.cs",
+              "RelativeToolTip": "Events.Infrastructure\\EntityConfigurations\\EventConfigurations.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T10:37:54.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "EventPlaceController.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Api\\Controllers\\EventPlaceController.cs",
+              "RelativeDocumentMoniker": "Events.Api\\Controllers\\EventPlaceController.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Api\\Controllers\\EventPlaceController.cs",
+              "RelativeToolTip": "Events.Api\\Controllers\\EventPlaceController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACAAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-09T08:25:43.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "PlaceSeatConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Infrastructure\\EntityConfigurations\\PlaceSeatConfigurations.cs",
+              "RelativeDocumentMoniker": "Events.Infrastructure\\EntityConfigurations\\PlaceSeatConfigurations.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Infrastructure\\EntityConfigurations\\PlaceSeatConfigurations.cs",
+              "RelativeToolTip": "Events.Infrastructure\\EntityConfigurations\\PlaceSeatConfigurations.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T18:01:50.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "TitleFirstConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Infrastructure\\EntityConfigurations\\TitleFirstConfigurations.cs",
+              "RelativeDocumentMoniker": "Events.Infrastructure\\EntityConfigurations\\TitleFirstConfigurations.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Infrastructure\\EntityConfigurations\\TitleFirstConfigurations.cs",
+              "RelativeToolTip": "Events.Infrastructure\\EntityConfigurations\\TitleFirstConfigurations.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T18:06:21.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "ChairTypeConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Infrastructure\\EntityConfigurations\\ChairTypeConfigurations.cs",
+              "RelativeDocumentMoniker": "Events.Infrastructure\\EntityConfigurations\\ChairTypeConfigurations.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Infrastructure\\EntityConfigurations\\ChairTypeConfigurations.cs",
+              "RelativeToolTip": "Events.Infrastructure\\EntityConfigurations\\ChairTypeConfigurations.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T10:42:51.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "20240517175705_charisplaces.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Infrastructure\\Migrations\\20240517175705_charisplaces.cs",
+              "RelativeDocumentMoniker": "Events.Infrastructure\\Migrations\\20240517175705_charisplaces.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Infrastructure\\Migrations\\20240517175705_charisplaces.cs",
+              "RelativeToolTip": "Events.Infrastructure\\Migrations\\20240517175705_charisplaces.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T17:57:05.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Prefixes.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Domain\\Enums\\Prefixes.cs",
+              "RelativeDocumentMoniker": "Events.Domain\\Enums\\Prefixes.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Domain\\Enums\\Prefixes.cs",
+              "RelativeToolTip": "Events.Domain\\Enums\\Prefixes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T17:39:12.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "PersonTypeController.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Api\\Controllers\\PersonTypeController.cs",
+              "RelativeDocumentMoniker": "Events.Api\\Controllers\\PersonTypeController.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Api\\Controllers\\PersonTypeController.cs",
+              "RelativeToolTip": "Events.Api\\Controllers\\PersonTypeController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAADYAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T20:26:24.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Domain\\BaseEntities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Events.Domain\\BaseEntities\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Domain\\BaseEntities\\BaseEntity.cs",
+              "RelativeToolTip": "Events.Domain\\BaseEntities\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T10:38:29.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "DeleteInvitation.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Invitations\\Commands\\DeleteInvitation.cs",
+              "RelativeDocumentMoniker": "Events.Application\\Invitations\\Commands\\DeleteInvitation.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Invitations\\Commands\\DeleteInvitation.cs",
+              "RelativeToolTip": "Events.Application\\Invitations\\Commands\\DeleteInvitation.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T16:47:40.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "FirstTitleController.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Api\\Controllers\\FirstTitleController.cs",
+              "RelativeDocumentMoniker": "Events.Api\\Controllers\\FirstTitleController.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Api\\Controllers\\FirstTitleController.cs",
+              "RelativeToolTip": "Events.Api\\Controllers\\FirstTitleController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAA9wCwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T20:25:05.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "InvitationStatus.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Domain\\Enums\\InvitationStatus.cs",
+              "RelativeDocumentMoniker": "Events.Domain\\Enums\\InvitationStatus.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Domain\\Enums\\InvitationStatus.cs",
+              "RelativeToolTip": "Events.Domain\\Enums\\InvitationStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T12:30:56.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "IBaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Domain\\BaseEntities\\IBaseEntity.cs",
+              "RelativeDocumentMoniker": "Events.Domain\\BaseEntities\\IBaseEntity.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Domain\\BaseEntities\\IBaseEntity.cs",
+              "RelativeToolTip": "Events.Domain\\BaseEntities\\IBaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T11:15:20.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "IBaseEntityConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Infrastructure\\Abstractions\\IBaseEntityConfiguration.cs",
+              "RelativeDocumentMoniker": "Events.Infrastructure\\Abstractions\\IBaseEntityConfiguration.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Infrastructure\\Abstractions\\IBaseEntityConfiguration.cs",
+              "RelativeToolTip": "Events.Infrastructure\\Abstractions\\IBaseEntityConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T11:15:14.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "GetAllEvents.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Events\\Queries\\GetAllEvents.cs",
+              "RelativeDocumentMoniker": "Events.Application\\Events\\Queries\\GetAllEvents.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Events\\Queries\\GetAllEvents.cs",
+              "RelativeToolTip": "Events.Application\\Events\\Queries\\GetAllEvents.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAIBOwBQAAABwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T20:41:19.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "DeleteEvent.cs",
+              "DocumentMoniker": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Events\\Commands\\DeleteEvent.cs",
+              "RelativeDocumentMoniker": "Events.Application\\Events\\Commands\\DeleteEvent.cs",
+              "ToolTip": "C:\\Users\\manarmh\\source\\codes\\Events\\Backend\\Events.Application\\Events\\Commands\\DeleteEvent.cs",
+              "RelativeToolTip": "Events.Application\\Events\\Commands\\DeleteEvent.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAABIwB4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-09T09:12:25.804Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+<div class="g-container">
+    <div class="close-btn">
+      <i class="fa fa-close close-btn" (click)="close()"></i>
+    </div>
+    <div class="header">
+        <h1>{{data.title}}</h1>
+    </div>
+   <hr/>
+    
+    <form [formGroup]="basicForm" (ngSubmit)="submitForm()" novalidate>
+      <div class="row mb-2" >
+        
+        <div class="col-md-12">
+          <span> النوع</span>
+        </div>
+        
+      </div>
+      <div class="row mb-2" >
+        
+        <div class="col-md-12">
+          <div class="form-group">
+            <input
+            class="form-control" 
+            formControlName="Name"
+            type="text"
+          />
+          </div>
+        </div>
+        
+      </div>
+      <div class="mb-2"
+        *ngIf="this.basicForm.controls?.['Name'].touched && this.basicForm.controls?.['Name'].invalid"
+      >
+        <div
+          *ngIf="this.basicForm.controls?.['Name'].errors?.['required']"
+        >
+          <span class="error" >الاسم مطلوب.</span>
+        </div>
+        <div
+          *ngIf="this.basicForm.controls?.['Name'].errors?.['minlength']"
+        >
+          <span class="error" >الحد الادنى للاسم ثلاث أحرف.</span>
+        </div>
+      </div>
+      <div class="row mb-2" >
+        
+        <div class="col-md-12">
+          <span> صورة الكرسي</span>
+        </div>
+        
+      </div>
+      <div class="row mb-2" >
+        
+        <div class="col-md-12">
+          <label for="SeatImage" class="form-control">
+           <span class="lbl">Browse</span>  
+        </label>
+          <input type="file" #fileInput id="SeatImage"
+          (change)="uploadFile()">
+        </div>
+        
+      </div>
+      <div class="row mb-2" >
+        
+        <div class="col-md-12">
+          <span> اللون</span>
+        </div>
+        
+      </div>
+      <div class="row mb-2" >
+        
+        <div class="col-md-6">
+          <input [(colorPicker)]="color" [style.background]="color"
+           (colorPickerChange)="setColor(color)"  />
+        
+        </div>
+        
+      </div>
+      <div class="row mb-2" >
+        
+        <div class="col-md-12">
+          <span> لون النص</span>
+        </div>
+        
+      </div>
+      <div class="row mb-2" >
+        
+        <div class="col-md-6">
+           <input [(colorPicker)]="colorText" [style.background]="colorText" (colorPickerChange)="setColorText(colorText)"  />
+        </div>
+        
+      </div>
+     
+      <div class="row g-btns" >
+        
+        <div class="col-md-12">
+          <button class="btn btn-submit" >حفظ</button>
+        </div>
+        
+      </div>
+    </form>
+  </div>
+  
+    

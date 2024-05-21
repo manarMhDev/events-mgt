@@ -1,0 +1,138 @@
+<div class="g-container">
+    <div class="close-btn">
+      <i class="fa fa-close close-btn" (click)="close()"></i>
+    </div>
+    <div class="header">
+        <h1>{{data.title}}</h1>
+    </div>
+   <hr/>
+    
+    <form [formGroup]="basicForm" (ngSubmit)="submitForm()" novalidate>
+      <div class="row mb-2" >
+        
+        <div class="col-md-12">
+          <span> الاسم</span>
+        </div>
+        
+      </div>
+      <div class="row mb-2" >
+        
+        <div class="col-md-12">
+          <div class="form-group">
+            <input
+            class="form-control" 
+            formControlName="Name"
+            type="text"
+          />
+          </div>
+        </div>
+        
+      </div>
+      <div class="mb-2"
+        *ngIf="this.basicForm.controls?.['Name'].touched && this.basicForm.controls?.['Name'].invalid"
+      >
+        <div
+          *ngIf="this.basicForm.controls?.['Name'].errors?.['required']"
+        >
+          <span class="error" >الاسم مطلوب.</span>
+        </div>
+        <div
+          *ngIf="this.basicForm.controls?.['Name'].errors?.['minlength']"
+        >
+          <span class="error" >الحد الادنى للاسم ثلاث أحرف.</span>
+        </div>
+      </div>
+     
+      <div class="row mb-4">
+        <div class="col-4">
+          <ul class="radio-btns chart">
+            <li>
+              <input
+              id="Circular"
+              type="radio"
+              value="2"
+              formControlName="SeatingChart"
+            />
+            <label  for="Circular">دائري</label>
+            </li>
+            <li>
+              <input
+              id="ColsRows"
+              type="radio"
+              value="1"
+              formControlName="SeatingChart"
+            />
+            <label for="ColsRows">صفوف وأعمدة</label>
+            </li>
+                </ul>
+        </div>
+      </div>
+      <div class="row mb-2" >
+        
+        <div class="col-md-12">
+          <span> صورة المخطط</span>
+        </div>
+        
+      </div>
+      <div class="row mb-2" >
+        
+        <div class="col-md-12">
+          <label for="SeatingChartImage" class="form-control">
+           <span class="lbl">Browse</span>  
+        </label>
+          <input type="file" #fileInput id="SeatingChartImage"
+          (change)="uploadFile()">
+        </div>
+        
+      </div>
+      <div class="row mb-2" >
+        
+        <div class="col-md-12">
+          <span> عدد الصفوف</span>
+        </div>
+        
+      </div>
+      <div class="row mb-2" >
+        
+        <div class="col-md-12">
+          <div class="form-group">
+            <input
+            class="form-control" 
+            formControlName="Rows"
+            type="number"
+          />
+          </div>
+        </div>
+        
+      </div>
+      <div class="row mb-2" >
+        
+        <div class="col-md-12">
+          <span> عدد الأعمدة</span>
+        </div>
+        
+      </div>
+      <div class="row mb-2" >
+        
+        <div class="col-md-12">
+          <div class="form-group">
+            <input
+            class="form-control" 
+            formControlName="Columns"
+            type="number"
+          />
+          </div>
+        </div>
+        
+      </div>
+      <div class="row g-btns" >
+        
+        <div class="col-md-12">
+          <button class="btn btn-submit" >حفظ</button>
+        </div>
+        
+      </div>
+    </form>
+  </div>
+  
+    

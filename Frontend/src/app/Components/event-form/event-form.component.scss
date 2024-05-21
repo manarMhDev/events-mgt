@@ -1,0 +1,71 @@
+.g-container{
+    margin:20px;
+}
+
+.radio-btns {
+    list-style-type:none;
+    margin:25px 0 0 0;
+    padding:0;
+}
+
+.radio-btns li {
+    float:right;
+    margin:0 5px 0 0;
+   width:70px;
+   height:40px;
+   position:relative;
+}
+.lang li{
+    width:70px;
+}
+.chart li{
+    width:100px;
+}
+
+.radio-btns input[type="radio"] {
+   opacity:0.011;
+   z-index:100;
+}
+
+.radio-btns input[type="radio"]:checked + label {
+   background:#6666CC;
+   color:white;
+}
+
+.radio-btns label {
+    padding:5px;
+    width:100%;
+    border:1px solid #CCC; 
+    cursor:pointer;
+   z-index:90;
+}
+
+.radio-btns label:hover {
+    background:#DDD;
+}
+
+.g-btns{
+margin:20px;
+}
+.close-btn{
+ float: left;
+ cursor: pointer;
+}
+.btn-submit{
+    background:#6666CC;
+    color:#fff;
+    display: block;
+    width:100%;
+  }
+  .error{
+    color:red;
+  }
+  input[type="file"] {
+    display: none;
+}
+.lbl{
+    color: #6666CC;
+}
+mat-form-field {
+    width: 100%;
+  }

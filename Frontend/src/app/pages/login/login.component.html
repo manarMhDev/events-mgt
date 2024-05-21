@@ -1,0 +1,53 @@
+<div class="g-container" >
+    <div class="g-block">
+        <div class="login shadow-effect">
+   
+            <form [formGroup]="loginForm" (ngSubmit)="submitForm()" novalidate>
+                <div class="form-group mb-2">
+                    <label class="mb-2"
+                    [ngClass]='this.loginForm.controls?.["email"].touched
+                     && this.loginForm.controls?.["email"].invalid ? "error": "" '>
+                    البريد الالكتروني  *
+                    </label>
+                    <input type="text"
+                     class="form-control"
+                     name="email"
+                     formControlName="email"
+                     >
+                </div>
+                <div class="form-group mb-2">
+                    <label class="mb-2"
+                    [ngClass]='this.loginForm.controls?.["password"].touched
+                     && this.loginForm.controls?.["password"].invalid ? "error": "" '>
+                    كلمة المرور *
+                    </label>
+                    <input type="password"
+                    formControlName="password"
+                    name="password"
+                     class="form-control">
+                </div>
+                <div class="checkbox mb-2">
+                    <input type="checkbox" 
+                    formControlName="rememberMe"
+                    class="inline-checkbox"
+                    name="rememberMe"
+                     id="rememberMe"> 
+                    <label class="ms-2 check-lbl" for="rememberMe" > تذكرني</label>
+                  </div>
+                <div class="g-login-btn">
+                    <button 
+                    class="btn login-btn"
+                    type="submit">تسجيل الدخول</button>
+                </div>
+                <div class="list-group">
+					<a class="link-item" href="#">
+						نسيت كلمـة المرور؟					</a>
+					<a class="link-item" href="#">
+						نسيت اسم المستخدم؟					</a>
+									</div>
+            </form>
+        </div>
+    </div>
+ 
+</div>
+

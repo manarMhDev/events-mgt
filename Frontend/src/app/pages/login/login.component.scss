@@ -1,0 +1,61 @@
+.g-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.login{
+    padding: 40px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 10px 0 10px 0 rgba(18, 25, 33, 0.1);
+}
+form{
+    margin: 0 0 20px;
+}
+.inline-checkbox{
+    display: inline;
+    width:auto;
+    margin: 0;
+}
+.login-btn{
+    background-color: #6666CC;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    padding: 18px 50px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 900;
+    border-radius: 50px;
+    position: relative;
+    transition: all 0.3s ease;
+    text-align: center;
+    line-height: 1;
+    width: 100%;
+}
+input{
+    padding: 13px 40px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    color: #273f5b;
+    border-radius: 50px;
+    background-color: #fff;
+    box-shadow: 0 0 30px 0 rgba(18, 25, 33, 0.15);
+    width: 100%;
+    transition: border 0.2s linear, box-shadow 0.2s linear;
+}
+.list-group {
+    text-align: center;
+}
+.link-item {
+    display: inline;
+    text-decoration: none;
+    color:#6666CC;
+}
+.error{
+    color: red;
+}
